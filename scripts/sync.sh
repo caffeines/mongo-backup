@@ -39,7 +39,7 @@ function mongodb_dump
 mongodb_dump # mongodb_dump function call 
 
 readonly TOKEN=$2
-readonly DIR=mongodb_backup
+readonly DIR=
 BASENAME=$(basename $FILE)
 if [ -f "$FILE" ]; then
 # upload file to dropbox
